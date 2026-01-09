@@ -1,5 +1,4 @@
 import { Container } from './styles'
-import reactIcon from '../../assets/react-icon.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 
 export function Footer() {
@@ -7,8 +6,7 @@ export function Footer() {
     <Container className="footer">
       <div>
         <p>
-          This Website was made with <img src={reactIcon} alt="React" loading="lazy" />
-          {/* <span>❤️</span> */}
+          Developed by Pal Sonani
         </p>
       </div>
       <div className="social-media">
